@@ -31,4 +31,4 @@ def login():
     print("Login url: %s" % login_url)
     return render_template('dashboard.html', loginuri=login_url)
 if __name__ == '__main__':
-    app.run(debug=True, ssl_context='adhoc')
+    app.run(debug=True, ssl_context=('cert.pem', 'key.pem')) 
