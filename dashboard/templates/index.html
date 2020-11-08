@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/now-ui-kit.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <title>Bebot</title>
+</head>
+<body>
+{% include 'navbar.html' %}
+<div class="heading">
+    <h1 class="display-5 title">It's time to use Bebot in your server.</h1>
+    <p class="subtitle">Bebot is a first of its kind Cowboy Bebop discord bot<br />It features moderation, anime, gaming, user support, economy and many soon to come commands.</p>
+    <a class="btn btn-primary btn-lg" href="#start_link" target="_blank" role="button">Documentation</a>
+    <a class="btn btn-secondary btn-lg" href='https://discord.com/api/oauth2/authorize?client_id=769409130300440596&permissions=8&scope=bot' target="_blank" role="button">Add to server</a>
+    <br /><br /><br /><br /><br /><br />
+</div>
+<div class="features">
+    <div class="title">Features of Bebot</div>
+    <div class="subtitle">Taking user input on features</div>
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Anime Commands</h5>
+            <p class="card-text">Bebot features amazing anime commands <br>Look up info about your favorite anime with b.anisearch <br> Look up an anime stream with b.anistream <br>Find an episode of Cowboy Bebop to watch</p>
+        </div>
+    </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Gaming Commands</h5>
+                <p class="card-text">Bebot features gaming commands for two of your favorite games, COD MW and Fortnite <br>Use b.mw to get your COD MW stats <br> Use b.fortnite to get your Fortnite stats</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Other Commands</h5>
+                <p class="card-text">Bebot has many other commands as well ranging from things like Economy commands to Search commands for searching through reddit and other sites</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="statistics">
+    <div class="cards">
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">{{guild_count}}</h1>
+                <p style="font-weight: bold !important;font-size: 20px !important;">servers</p>
+            </div>
+        </div>
+        <div class="card statistic" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">{{member_count}}</h1>
+                <p style="font-weight: bold !important;font-size: 20px !important;">users</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page_end">
+    <div class="start">
+        <div class="card">
+            <div class="card-body gs-card">
+                <div class="title">Ready to try Bebot?</div>
+                <div class="subtitle">Invite Bebot and start giving your server the full Bebop treatment!</div>
+                <br />
+                <a class="btn btn-primary btn-lg" href='https://discord.com/api/oauth2/authorize?client_id=769409130300440596&permissions=8&scope=bot' role="button">Get started</a>
+            </div><br />
+        </div>
+    </div>
+    <div class="footer">
+        <div class="bot-footer">
+            <img src="/static/assets/BotLogoWord.svg" width="150"><br />
+            Copyright © [Yash Semlani] - 2020
+        </div><br/>
+        <div class="nouridio">design by <a href="https://twitter.com/Nouridio"> nouridio</a></div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="/static/js/now-ui-kit.min.js"></script>
+</body>
+</html>
