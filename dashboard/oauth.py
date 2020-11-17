@@ -3,8 +3,8 @@ import sys
 class Oauth(object):
     def __init__(self, app):
         self.app = app
-        self.client_id = "769409130300440596"
-        self.client_secret = "Gmdjs-6lkAtu-RCI_lVAJWz0KKCKKPh9"
+        self.client_id = "Your Client ID"
+        self.client_secret = "Your Client Secret"
         self.scope = "identify%20guilds"
         self.redirect_uri = "http://localhost:5000/dashboard"
         self.token_url = "https://discord.com/api/oauth2/token"
